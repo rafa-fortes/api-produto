@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: rafanfortes/api-produto:$(tag)
+          image: rafanfortes/api-produto:${tag}
           ports: 
           - containerPort: 8080
           env: 
